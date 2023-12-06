@@ -1,0 +1,36 @@
+#theme{
+    height: 200px;
+    width:100%;
+    background-color: azure;
+    color: black;
+    border-radius: 10px;
+    border: solid black 5px;
+    
+
+}
+
+.btn{
+    height: 40px;
+    width: auto;
+  background-color: crimson;
+}
+
+#userinput{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+
+   
+    
+}
+ .container{
+    background-color: aliceblue;
+    height: auto;
+ }
+
+ .result-para{
+    background-color: burlywood;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+ }
