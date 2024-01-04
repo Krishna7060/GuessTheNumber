@@ -1,0 +1,44 @@
+.heading{
+    color: crimson;
+    font-size: 5rem;
+    font-style: oblique;
+    font: weight 900px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* background-color: lavender; */
+/*  */
+    
+    
+    
+    
+}
+
+.player{
+    
+    font-size: 3.1rem;
+    font-style: oblique;
+    color: green;
+    margin-left: 105px;
+    font-weight: 600;
+}
+
+.dice{
+    
+    
+    
+}
+
+img{
+    height: 350px;
+    width: 500px;
+    margin-left: 10px;
+    
+}
+
+body{
+     background-color: ;
+}

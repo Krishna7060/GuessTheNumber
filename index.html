@@ -3,30 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guess The Number</title>
-    <link rel="stylesheet" href="style.css">
+    <title>DiceGame</title>
+    <link rel="stylesheet" href="dicee.css">
 </head>
 <body>
-    <header class="header">
-        <div id="theme">
-            <h1>Guess The Number</h1>
-            <h3>You have 10 attempts only</h3> 
-            <h3>Choose a number between 1 and 100</h3>
+    <h1 class="heading">Refresh Me</h1>
+    <div class="container">
+        
+        
+        <div class="dice">
+            <p class="player">Player1</p>
+            <img src="./dice6.jpg">
         </div>
-        <div class="container">
-            <h4>Enter your guess:</h4>
-            <input type="text" id="userinput" placeholder="Enter a number between 1 and 100">
-            <button id="submit" class="btn">Submit</button>
-            <button id="newgame" class="btn">New Game</button>
+        <div class="dice">
+            <p class="player">Player2</p>
+            <img src="./dice6.jpg" >
         </div>
-        <div class="result-para">
-            <p id="previousguses">Previous Guesses:</p>
-            <span id="guesslot"></span>
-            <p id="GuesLeft">Guesses Left: <span id="remaining">10</span></p>
-            <p id="LorHi"></p>
-            <p id="stratover"></p>
-        </div>
-    </header>
-    <script src="script3.js"></script>
+        
+    </div>
+    
+<script src="dicee.js" ></script>  
 </body>
 </html>
